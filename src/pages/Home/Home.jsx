@@ -9,8 +9,10 @@ export const Home = () => {
 
    const getPosts = async () => {
       try {
-         const response = await blogFetch.get("/posts")
+         const response = await blogFetch.get("/1")
          const content = response.data
+         console.log(response)
+         console.log(content)
          setPosts(content)
       } catch (error) {
          console.log(error)
