@@ -30,7 +30,7 @@ export const Header = () => {
    return (
       <Head key={"Navbar"} className="navbar">
          <h2>
-            <Link to={"/"}>Blog Name</Link>
+            <Link to={"/"}>Logo</Link>
          </h2>
          <nav>
             <Links className="links">
