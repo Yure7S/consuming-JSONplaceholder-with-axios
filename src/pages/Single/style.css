@@ -1,0 +1,45 @@
+.container h2{
+   text-align: center;
+   font-size: 30px;
+   margin: 50px 0px 20px;
+}
+
+.content{
+   width: 95%;
+   max-width: 900px;
+   margin: 0px auto;
+   display: flex;
+   justify-content: center;
+}
+
+
+.content .post{
+   width: calc(50% - 20px);
+   margin: 10px;
+   padding: 20px;
+   color: rgba(255, 255, 255, 0.911);
+   background-color: rgb(22, 22, 22);
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+}
+
+.content .post h3{
+   margin-bottom: 15px;
+}
+
+.content .post h3::first-letter{
+   text-transform: uppercase;
+}
+
+.content .post p{
+   margin-bottom: 20px;
+}
+
+.content .post a{
+   color: rgba(255, 255, 255, 0.63);
+   font-weight: bold;
+   margin-top: 15px;
+}
